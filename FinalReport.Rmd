@@ -1,0 +1,22 @@
+---
+title: "Capstone Final Report"
+author: "Wen Jie"
+date: "20 August 2015"
+output: slidy_presentation
+---
+## Overview
+
+The goal is to create a product using prediction algorithm in this application.
+- Uses algorithm that predicts the next most probable word after a user enters a phrase
+- Built on R and after which deployed to the web server
+
+## Data
+
+The data given was extracted from twitter, blog and news in different languages. The one we are looking at is the English dataset. The dataset is cleaned by removing the:
+- Whitespaces
+- Numbers 
+- Punctuations
+- Stopwords 
+
+After which these data are converted all to lower case
+
